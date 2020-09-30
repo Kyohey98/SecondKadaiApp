@@ -10,11 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var nyuryoku: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 
+    let nameViewController:NameViewController = segue.destination as! NameViewController
+        
+        nameViewController . name  = nyuryoku . text!
+    }
+    
+    
+    @IBAction func unwind(_ segue: UIStoryboardSegue) {
+    }
 
 }
 

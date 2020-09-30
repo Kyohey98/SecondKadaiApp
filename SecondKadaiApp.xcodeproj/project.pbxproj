@@ -13,6 +13,7 @@
 		35558BD425249B3800754DA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35558BD225249B3800754DA5 /* Main.storyboard */; };
 		35558BD625249B3A00754DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35558BD525249B3A00754DA5 /* Assets.xcassets */; };
 		35558BD925249B3A00754DA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35558BD725249B3A00754DA5 /* LaunchScreen.storyboard */; };
+		35558BE125249C0B00754DA5 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35558BE025249C0B00754DA5 /* NameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		35558BD525249B3A00754DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35558BD825249B3A00754DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35558BDA25249B3A00754DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35558BE025249C0B00754DA5 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				35558BCC25249B3800754DA5 /* AppDelegate.swift */,
 				35558BCE25249B3800754DA5 /* SceneDelegate.swift */,
 				35558BD025249B3800754DA5 /* ViewController.swift */,
+				35558BE025249C0B00754DA5 /* NameViewController.swift */,
 				35558BD225249B3800754DA5 /* Main.storyboard */,
 				35558BD525249B3A00754DA5 /* Assets.xcassets */,
 				35558BD725249B3A00754DA5 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				35558BD125249B3800754DA5 /* ViewController.swift in Sources */,
 				35558BCD25249B3800754DA5 /* AppDelegate.swift in Sources */,
 				35558BCF25249B3800754DA5 /* SceneDelegate.swift in Sources */,
+				35558BE125249C0B00754DA5 /* NameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
